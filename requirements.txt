@@ -1,0 +1,13 @@
+# requirements.txt
+# GarudaSentry - Dependensi Python eksternal
+#
+# Install dengan:
+#   pip install -r requirements.txt
+
+aiohttp>=3.9.5          # Async HTTP client untuk mass scanning
+beautifulsoup4>=4.12.3  # Parsing DOM HTML
+lxml>=5.2.0              # Parser cepat untuk BeautifulSoup
+python-whois>=0.9.4      # Query data WHOIS domain
+ipwhois>=1.2.0           # Query RDAP untuk info ASN / hosting provider
+dnspython>=2.6.1         # Resolusi DNS asinkron-friendly (dijalankan via executor)
+rich>=13.7.1             # Console logging berwarna & tabel laporan
